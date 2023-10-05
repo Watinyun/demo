@@ -16,7 +16,7 @@ try:
               while GPIO.input(sensor_pin):
                    time.sleep(0.2)
         else:
-               print("Detect Object") <-call API Camera
+               print("Detect Object")
 
 except KeyboardInterrupt:
      GPIO.cleanup()
