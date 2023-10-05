@@ -2,6 +2,8 @@ import RPi.GPIO as GPIO
 import time
 
 sensor_pin = 24
+sensor_pin = 25
+sensor_pin = 26
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
