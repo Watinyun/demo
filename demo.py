@@ -18,4 +18,4 @@ try:
 
 except KeyboardInterrupt:
      GPIO.cleanup()
-     print("KeyboardInterrupt") 
+     #print("KeyboardInterrupt") 
